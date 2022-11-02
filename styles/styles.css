@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+img {
+    max-width: 600px;
+}
+
+.dropdowns {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 20px;
+}
+
+#wig-img {
+    height: 330px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+#location-img {
+    height: 330px;
+    width: 600px;
+    margin-top: 5px;
+}
+
+select {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.counter {
+    padding-top: 5px;
+}
+
+.aphorisms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60rem;
+}
