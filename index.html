@@ -35,14 +35,38 @@
                         Wig
                         <select id="wig-select">
                             <option value="Velma">Velma</option>
+                            <option value="Cyndi">Cyndi</option>
                             <option value="Grace">Grace</option>
                             <option value="Maureen">Maureen</option>
+                            <option value="Savannah">Savannah</option>
+                            <option value="Veronica">Veronica</option>
                             <option value="Scarlett">Scarlett</option>
                         </select>
                     </label>
                     <img id="wig-img" src="./assets/Velma.png" alt="Velma wig" />
                     <div id="wig-change-counter" class="counter">You have changed wigs 0 times</div>
                 </div>
+                <div class="select-container">
+                    <label>
+                        Location
+                        <select id="location-select">
+                            <option value="Cafe-Tropical">Cafe Tropical</option>
+                            <option value="General-Store">General Store</option>
+                            <option value="Rosebud-Motel">Rosebud Motel</option>
+                            <option value="Town-Hall">Town Hall</option>
+                        </select>
+                    </label>
+                    <img id="location-img" src="/assets/Cafe-Tropical.png" />
+                    <div id="location-change-counter" class="counter">
+                        You have changed location 0 times
+                    </div>
+                </div>
+            </section>
+            <section class="aphorisms">
+                <label for="aphorism-input">Moira Aphorisms</label>
+                <input id="aphorism-input" type="text" />
+                <button id="add-button">Add</button>
+                <ul id="aphorism-list"></ul>
             </section>
         </main>
     </body>
